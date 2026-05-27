@@ -3,11 +3,11 @@
 ### Group 6
 
 ### Members
-Caindoy, Thistle
-Infante, Gabriel
-Martinez, Gabrielle
-Melanio, Marion
-Omandac, Karl
+- Caindoy, Thistle
+- Infante, Gabriel
+- Martinez, Gabrielle
+- Melanio, Marion
+- Omandac, Karl
 
 ### Topic Theme
 How does RAM work?
