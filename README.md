@@ -31,7 +31,26 @@ Focus: How RAM retrieves data when the CPU requests it.
 Main Learning Goal: How does RAM find and retrieve data so quickly?
 
 
-Section 1: What is RAM?
+### Section 1: What is RAM?
+
+**Hook**: Some kind of intereting info that would tickle your brain toes
+
+**Info**:
+What is ram?
+- Explanation
+
+Memory
+- Explanation
+
+Von Neumann architecture
+- Explanation
+
+RAM vs ROM (hdd/sdd)
+- Explanation
+
+**Implementation**: The information should contain what RAM is, why it is important in doing computer processes, and slight discussion of how it stores memory and why they are stored there rather than storing it into hdd/sdd instead. You can also have example memory maps of variables like in LBYARCH to see how they are represented and accessed.
+
+
 - Hook (Di ko alam basta something na makakakuha ng curiosity nila, could be interactive)
 - Explain RAM
 - Why does a computer need RAM?
@@ -39,7 +58,12 @@ Section 1: What is RAM?
 - Why is it called “memory”?
 - Pwede tayo lagay visual examples dito alongside the paragraphs (para pretty pretty na medyo cool ganern)
 
-Section 2: What happens when you click an application?
+### Section 2: What happens when you click an application?
+
+Info: Information about how the components in RAM fetches and stores data into it
+
+Implementation: This section will have an interactive illustration of the parts of the RAM, where for each step of how RAM handles applications, the user has to click/hover certain parts of the diagram to know what is happening to it. This will also have a memory map representation to know where the variables are going to and from.
+
 - I dunno a better title yet itz our memory simulation
 - Here’s where our main interactive component is, no paragraphs just pop ups (and maybe audio)
 - Delivered in story-telling style where we track a piece of data through the RAM
