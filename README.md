@@ -52,7 +52,7 @@ Needed
 - Why is it called “memory”?
 - Pwede tayo lagay visual examples dito alongside the paragraphs (para pretty pretty na medyo cool ganern)
 
-Section 2: Inside the RAM - The Internal Data Journey
+### Section 2: Inside the RAM - The Internal Data Journey
 **Info**: A deep-dive simulation tracking a data stream through a detailed physical diagram of a RAM module. It explains how internal hardware components interact to process requests, combining the step-by-step application flow with immediate hardware definitions and function explanations.
 
 **Implementation**: This section features a high-fidelity, interactive circuit diagram of a RAM stick. Upon loading, an animated data stream (representing an app request) enters the module. The camera dynamically pans and zooms, following the stream as it physically travels through every internal component. As the data "visits" each component, that part highlights, and a modal displays its definition, technical function, and role in the current operation (Reading or Writing). Once the journey is complete, the diagram enters a free-roam state where users can re-click components, and a prominent button appears linking to the next section.
