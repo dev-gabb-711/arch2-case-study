@@ -32,24 +32,19 @@ Main Learning Goal: How does RAM find and retrieve data so quickly?
 
 
 ### Section 1: What is RAM?
+**Overview Implementation**: The information should contain what RAM is, why it is important in doing computer processes, and slight discussion of how it stores memory and why they are stored there rather than storing it into hdd/sdd instead. You can also have example memory maps of variables like in LBYARCH to see how they are represented and accessed.
 
-**Hook**: Some kind of intereting info that would tickle your brain toes
-
-**Info**:
-What is ram?
-- Explanation
-
-Memory
-- Explanation
-
-Von Neumann architecture
-- Explanation
-
-RAM vs ROM (hdd/sdd)
-- Explanation
-
-**Implementation**: The information should contain what RAM is, why it is important in doing computer processes, and slight discussion of how it stores memory and why they are stored there rather than storing it into hdd/sdd instead. You can also have example memory maps of variables like in LBYARCH to see how they are represented and accessed.
-
+**Outline**:
+- Hook
+  - A starting toe tickling info that would introduce us to the topic
+- What is ram?
+  - A general explanation of what RAM is and its functions
+- Memory
+  - A general explanation of what Memory is, its use, and how it communicates with the CPU, which transitions to Von Neumann Architecture
+- Von Neumann Architecture
+  - A brief version of Section 2, where mainly the interaction of the Memory and the CPU through busses is discussed
+- RAM vs ROM
+  - A brief comparison of the usage, data handling, and memory size of RAM and ROM
 
 - Hook (Di ko alam basta something na makakakuha ng curiosity nila, could be interactive)
 - Explain RAM
