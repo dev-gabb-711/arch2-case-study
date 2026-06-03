@@ -45,13 +45,6 @@ Needed
 - RAM vs ROM
   - A brief comparison of the usage, data handling, and memory size of RAM and ROM
 
-- Hook (Di ko alam basta something na makakakuha ng curiosity nila, could be interactive)
-- Explain RAM
-- Why does a computer need RAM?
-- Why not use storage “directly”?
-- Why is it called “memory”?
-- Pwede tayo lagay visual examples dito alongside the paragraphs (para pretty pretty na medyo cool ganern)
-
 ### Section 2: Inside the RAM - The Internal Data Journey
 **Info**: A deep-dive simulation tracking a data stream through a detailed physical diagram of a RAM module. It explains how internal hardware components interact to process requests, combining the step-by-step application flow with immediate hardware definitions and function explanations.
 
@@ -68,10 +61,8 @@ Needed
 - After this section, the user is allowed to freely click on the components in the full view of the RAM diagram and details about each component will be shown as well.
 - The flow of data will also be continuous throughout the RAM diagram
 
-### Section 4: Challenge Quiz
-- Last interactive part where we test if they really did understand our lesson
-- Good way to see if our delivery was effective
-- Reinforce their learning (if they had any…)
+### Section 3: Challenge Quiz
+**Implementation**: This section will reinforce the viewer's learning by asking questions about the information presented in the previous sections. The question may be one of these types: Multiple Choice, Fill in the Blank and True or False. The question and answer will be stored in the server side to avoid bloating the client side and to avoid getting the answers via inspect element.
 
 
 (LOWK WE MIGHT NOT NEED THIS)
