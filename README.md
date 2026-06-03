@@ -24,11 +24,10 @@ Needed
 
 --------------- Scratch 1 --------------
 
-
-Topic: How RAM Works
-Title: Inside RAM - Computer Memory in Motion
-Focus: How RAM retrieves data when the CPU requests it.
-Main Learning Goal: How does RAM find and retrieve data so quickly?
+- Topic: How RAM Works
+- Title: Inside RAM - Computer Memory in Motion
+- Focus: How RAM retrieves data when the CPU requests it.
+- Main Learning Goal: How does RAM find and retrieve data so quickly?
 
 
 ### Section 1: What is RAM?
@@ -53,30 +52,26 @@ Main Learning Goal: How does RAM find and retrieve data so quickly?
 - Why is it called “memory”?
 - Pwede tayo lagay visual examples dito alongside the paragraphs (para pretty pretty na medyo cool ganern)
 
-### Section 2: What happens when you click an application?
+Section 2: Inside the RAM - The Internal Data Journey
+**Info**: A deep-dive simulation tracking a data stream through a detailed physical diagram of a RAM module. It explains how internal hardware components interact to process requests, combining the step-by-step application flow with immediate hardware definitions and function explanations.
 
-Info: Information about how the components in RAM fetches and stores data into it
+**Implementation**: This section features a high-fidelity, interactive circuit diagram of a RAM stick. Upon loading, an animated data stream (representing an app request) enters the module. The camera dynamically pans and zooms, following the stream as it physically travels through every internal component. As the data "visits" each component, that part highlights, and a modal displays its definition, technical function, and role in the current operation (Reading or Writing). Once the journey is complete, the diagram enters a free-roam state where users can re-click components, and a prominent button appears linking to the next section.
 
-Implementation: This section will have an interactive illustration of the parts of the RAM, where for each step of how RAM handles applications, the user has to click/hover certain parts of the diagram to know what is happening to it. This will also have a memory map representation to know where the variables are going to and from.
-
-- I dunno a better title yet itz our memory simulation
-- Here’s where our main interactive component is, no paragraphs just pop ups (and maybe audio)
-- Delivered in story-telling style where we track a piece of data through the RAM
-- How to deliver this still needs more thinking process
-- But I want it to have pop ups explaining each part of the process and I want the audience to be able to click through it for the process to continue
-- Interactivity needs more thinking (help me think)
-
-
-Section 3: Meet the hardware (all hardwares involved in the process)
-- Here we can add graphics of the hardwares involved in the process
-- We can also add the some more infos about the subtopics here
-- Might change it to instead of Meet the hardware -> RAM concepts explained, more like a trivia section of our website or webpage (there could be some interactivity here but I dunno what yet)…
+- Unified Narrative: The "App Opening" process is told through the journey of data physically moving within the RAM's architecture.
+- The Guided Tour (Data Stream Path):
+  - Entry Point (Connection Pins/Gold Contacts): The data stream enters. Pop-up defines the interface between the motherboard and the RAM module.
+  - The Brain (SPD Chip & Register/Buffer): The stream hits these first. Explains how the SPD tells the system how to talk to the RAM, and how Control Logic manages the incoming commands.
+  - The Routing (Row & Column Decoders): The stream splits into address signals. Pop-up explains how these components translate abstract memory addresses into physical coordinates on the matrix.
+  - The Destination (The Memory Array - Banks, Rows, Columns): The stream arrives at the core grid. Explains the hierarchy of how data is stored in massive arrays.
+  - The Storage Cell (Transistor & Capacitor): Final zoom-in to the microscopic level. Explains the fundamental dynamic RAM cell, volatility, and the need for electrical refresh cycles.
+  - The Retrieval (Sense Amplifiers): (If simulating a "Read" operation) Shows data leaving the cell, being amplified from a tiny charge to a readable 1 or 0.
+- After this section, the user is allowed to freely click on the components in the full view of the RAM diagram and details about each component will be shown as well.
+- The flow of data will also be continuous throughout the RAM diagram
 
 Section 4: Challenge Quiz
 - Last interactive part where we test if they really did understand our lesson
 - Good way to see if our delivery was effective
 - Reinforce their learning (if they had any…)
-
 
 Section 5: Conclusion or Wrap Up
 - We can add this or not
