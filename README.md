@@ -35,7 +35,7 @@ Needed
 
 **Outline**:
 - Hook
-  - A starting toe tickling info that would introduce us to the topic
+  - This starting section will explore interesting application uses of RAM through a brief discussion of how a Gen 1 Pokemon Save file is stored. It also discusses how it operates together with the game ROM in the cartrage and explains what happens if the battery inside it dies.
 - What is ram?
   - A general explanation of what RAM is and its functions
 - Memory
