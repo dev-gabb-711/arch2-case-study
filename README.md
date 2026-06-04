@@ -1,5 +1,5 @@
 # Case Study Project 2 Proposal
-## CSARCH2 - S06
+## CSARCH2 - S04
 ### Group 6
 
 ### Members
