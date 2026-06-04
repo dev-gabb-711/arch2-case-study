@@ -39,7 +39,7 @@ Needed
 - What is ram?
   - A general explanation of what RAM is and its functions
 - Memory
-  - A general explanation of what Memory is, its use, and how it communicates with the CPU, which transitions to Von Neumann Architecture
+  - A general explanation of what Memory is, its purpose, and how it interacts with the CPU, serving as a transition into the Von Neumann Architecture.
 - Von Neumann Architecture
   - A brief version of Section 2, where mainly the interaction of the Memory and the CPU through busses is discussed
 - RAM vs ROM
