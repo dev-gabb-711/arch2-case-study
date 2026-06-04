@@ -36,7 +36,7 @@ Needed
 **Outline**:
 - Hook
   - This starting section will explore interesting application uses of RAM through a brief discussion of how a Gen 1 Pokemon Save file is stored. It also discusses how it operates together with the game ROM in the cartrage and explains what happens if the battery inside it dies.
-  - This example serves as an accessible introduction to the concepts of volatile and non-volatile memory while demonstrating that different types of memory serve different purposes within a computer system. The discussion also establishes an early distinction between RAM and ROM, which will be explored further later in the section.
+  - This exhibit will explore the architectural principles of volatile memory by analyzing how a game save file is maintained inside a retro cartridge, specifically using a Generation 1 Pokémon game as a case study. Instead of introducing RAM through dry, textbook definitions, the exhibit hooks the audience with a familiar scenario: how a player's digital progress (in-game coordinates, team data, inventory) is actively held in a specialized type of RAM, and the technical breakdown of why that memory completely vanishes when its power source is compromiseThe discussion also establishes an early distinction between RAM and ROM, which will be explored further later in the section.
 - What is ram?
   - This subsection provides a general explanation of Random Access Memory (RAM) and its role as the computer's primary working memory. The discussion will focus on RAM as a temporary storage location for data and instructions that are actively being used by the CPU.
   - Key concepts we can include:
