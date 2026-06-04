@@ -31,19 +31,48 @@ Needed
 
 
 ### Section 1: What is RAM?
-**Overview Implementation**: The information should contain what RAM is, why it is important in doing computer processes, and slight discussion of how it stores memory and why they are stored there rather than storing it into hdd/sdd instead. You can also have example memory maps of variables like in LBYARCH to see how they are represented and accessed.
+**Overview Implementation**: This introductory section aims to establish the foundational concepts necessary for understanding the inner workings of RAM. Visitors will be introduced to the purpose of computer memory, the role RAM plays in system performance, and how it interacts with the CPU during normal computer operations. Through visual aids, examples, and simplified diagrams, this section will provide the background knowledge needed to understand the more technical concepts presented in later sections.
 
 **Outline**:
 - Hook
   - This starting section will explore interesting application uses of RAM through a brief discussion of how a Gen 1 Pokemon Save file is stored. It also discusses how it operates together with the game ROM in the cartrage and explains what happens if the battery inside it dies.
+  - This example serves as an accessible introduction to the concepts of volatile and non-volatile memory while demonstrating that different types of memory serve different purposes within a computer system. The discussion also establishes an early distinction between RAM and ROM, which will be explored further later in the section.
 - What is ram?
-  - A general explanation of what RAM is and its functions
+  - This subsection provides a general explanation of Random Access Memory (RAM) and its role as the computer's primary working memory. The discussion will focus on RAM as a temporary storage location for data and instructions that are actively being used by the CPU.
+  - Key concepts we can include:
+    - RAM as a high-speed working area for currently active programs and data.
+    - The meaning of "random access" and how any memory location can be accessed directly.
+    - Volatility and why RAM contents disappear when power is removed.
+    - The relationship between RAM capacity and the number of applications that can be actively used at the same time.
+  - Simple real-world analogies may be used to help visitors understand why RAM functions as a temporary workspace rather than a permanent storage location.
 - Memory
-  - A general explanation of what Memory is, its purpose, and how it interacts with the CPU, serving as a transition into the Von Neumann Architecture.
+  - This subsection broadens the discussion to computer memory as a whole. Visitors will learn how information is represented, stored, and accessed within a computer system.
+  - A general explanation of what Memory is, its use, and how it communicates with the CPU, which transitions to Von Neumann Architecture
+  - Topics we can include:
+    - What memory is and why computers require it.
+    - How data and instructions are stored as binary values.
+    - The concept of memory addresses and how the CPU locates information.
+    - Simple memory maps inspired by LBYARCH activities showing how variables are assigned memory locations.
+    - Examples demonstrating how a variable's value can be retrieved by referencing its address.
+  - The goal is to bridge the gap between programming concepts and physical computer hardware while preparing visitors for the discussion of memory access in later sections.
 - Von Neumann Architecture
-  - A brief version of Section 2, where mainly the interaction of the Memory and the CPU through busses is discussed
+  - A brief version of Section 2, where mainly the interaction of the Memory and the CPU through busses is discussed.
+  - This subsection introduces the role of memory within the broader computer architecture. Rather than providing a complete architectural deep dive, the focus will be on how the CPU communicates with memory.
+  - We can include diagrams siguro (?) of these:
+    - CPU as the processor of instructions.
+    - Memory as the storage location for programs and data.
+    - Address buses used to specify memory locations.
+    - Data buses used to transfer information.
+    - Control signals used to coordinate memory operations.
 - RAM vs ROM
-  - A brief comparison of the usage, data handling, and memory size of RAM and ROM
+  - A brief comparison of the usage, data handling, and memory size of RAM and ROM.
+  - We can include:
+    - Purpose and function of RAM and ROM.
+    - Volatile versus non-volatile storage.
+    - Typical capacities and applications.
+    - Examples of data commonly stored in each memory type.
+    - Why both forms of memory are required for a functioning computer system.
+  - A comparison table or visual diagram may be included to help visitors quickly identify the strengths and limitations of each memory technology.
 
 ### Section 2: Inside the RAM - The Internal Data Journey
 **Info**: A deep-dive simulation tracking a data stream through a detailed physical diagram of a RAM module. It explains how internal hardware components interact to process requests, combining the step-by-step application flow with immediate hardware definitions and function explanations.
