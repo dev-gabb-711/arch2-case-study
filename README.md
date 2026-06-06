@@ -11,6 +11,8 @@
 
 ### Topic Theme
 - Topic: How RAM Works
+
+### Topic Title
 - Title: Inside RAM - Computer Memory in Motion
 
 ### Section 1: What is RAM?
@@ -40,7 +42,7 @@
 - Von Neumann Architecture
   - A brief version of Section 2, where mainly the interaction of the Memory and the CPU through busses is discussed.
   - This subsection introduces the role of memory within the broader computer architecture. Rather than providing a complete architectural deep dive, the focus will be on how the CPU communicates with memory.
-  - We can include diagrams siguro (?) of these:
+  - We can include these diagrams:
     - CPU as the processor of instructions.
     - Memory as the storage location for programs and data.
     - Address buses used to specify memory locations.
@@ -74,3 +76,9 @@
 
 ### Section 3: Challenge Quiz
 **Implementation**: This section will reinforce the viewer's learning by asking questions about the information presented in the previous sections. The question may be one of these types: Multiple Choice, Fill in the Blank and True or False. The question and answer will be stored in the server side to avoid bloating the client side and to avoid getting the answers via inspect element.
+
+### Tentative Style Guide Snapshot
+
+![page1-tsg](image-3.png)
+![page2-tsg](image-1.png)
+![page3-tsg](image-2.png)
