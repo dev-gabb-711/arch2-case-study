@@ -79,6 +79,5 @@
 
 ### Tentative Style Guide Snapshot
 
-![page1-tsg](image-3.png)
-![page2-tsg](image-1.png)
-![page3-tsg](image-2.png)
+![page1-tsg](image-4.png)
+![page2-tsg](image-5.png)
