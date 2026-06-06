@@ -10,25 +10,8 @@
 - Omandac, Karl
 
 ### Topic Theme
-How does RAM work?
-
-Needed
-- Group’s title
-- Group’s tech stack plan
-  - Proposed interactive element. Minimum of 1 interactive element. Make it as detailed as possible so we can evaluate the compatibility to the central website.
-  - Mobile-responsive layout if possible
-  - Tentative style guide snapshot – proposed virtual exhibit design layout
-
-
-
-
---------------- Scratch 1 --------------
-
 - Topic: How RAM Works
 - Title: Inside RAM - Computer Memory in Motion
-- Focus: How RAM retrieves data when the CPU requests it.
-- Main Learning Goal: How does RAM find and retrieve data so quickly?
-
 
 ### Section 1: What is RAM?
 **Overview Implementation**: This introductory section aims to establish the foundational concepts necessary for understanding the inner workings of RAM. Visitors will be introduced to the purpose of computer memory, the role RAM plays in system performance, and how it interacts with the CPU during normal computer operations. Through visual aids, examples, and simplified diagrams, this section will provide the background knowledge needed to understand the more technical concepts presented in later sections.
@@ -91,11 +74,3 @@ Needed
 
 ### Section 3: Challenge Quiz
 **Implementation**: This section will reinforce the viewer's learning by asking questions about the information presented in the previous sections. The question may be one of these types: Multiple Choice, Fill in the Blank and True or False. The question and answer will be stored in the server side to avoid bloating the client side and to avoid getting the answers via inspect element.
-
-
-(LOWK WE MIGHT NOT NEED THIS)
-Section 5: Conclusion or Wrap Up
-- We can add this or not
-- We’ll add this if the end of the website look barren or sum
-
------------------------------------------------------------------
