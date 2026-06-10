@@ -92,7 +92,7 @@
 ### Section 5: Challenge Quiz
 **Implementation**: This section will reinforce the viewer's learning by asking questions about the information presented in the previous sections. The question may be one of these types: Multiple Choice, Fill in the Blank and True or False. The question and answer will be stored in the server side to avoid bloating the client side and to avoid getting the answers via inspect element.
 
-### Layout of the Virtual Exhibit
+### Tentative Style Guide Snapshot
 
 ![page1-tsg](image-4.png)
 ![page2-tsg](image-5.png)
