@@ -58,7 +58,15 @@
     - Why both forms of memory are required for a functioning computer system.
   - A comparison table or visual diagram may be included to help visitors quickly identify the strengths and limitations of each memory technology.
 
-### Section 2: Inside the RAM - The Internal Data Journey
+
+### Section 2: The Evolution of RAM
+**Info**: This section explores the historical development and progression of RAM technologies.
+
+**Implementation**: This section will feature an interactive timeline showcasing major RAM generations and their evolution over time.
+
+**Outline**: Lorem Ipsum
+
+### Section 3: Inside the RAM - The Internal Data Journey
 **Info**: A deep-dive simulation tracking a data stream through a detailed physical diagram of a RAM module. It explains how internal hardware components interact to process requests, combining the step-by-step application flow with immediate hardware definitions and function explanations.
 
 **Implementation**: This section features a high-fidelity, interactive circuit diagram of a RAM stick. Upon loading, an animated data stream (representing an app request) enters the module. The camera dynamically pans and zooms, following the stream as it physically travels through every internal component. As the data "visits" each component, that part highlights, and a modal displays its definition, technical function, and role in the current operation (Reading or Writing). Once the journey is complete, the diagram enters a free-roam state where users can re-click components, and a prominent button appears linking to the next section.
@@ -74,13 +82,20 @@
 - After this section, the user is allowed to freely click on the components in the full view of the RAM diagram and details about each component will be shown as well.
 - The flow of data will also be continuous throughout the RAM diagram
 
-### Section 3: Challenge Quiz
+### Section 4: Memory Access and Communication
+**Info**: This section explores how memory requests are communicated, processed, and transmitted within a RAM system.
+
+**Implementation**: This section serves as the second major interactive element of the exhibit.
+
+**Outline**: Lorem ipsum
+
+### Section 5: Challenge Quiz
 **Implementation**: This section will reinforce the viewer's learning by asking questions about the information presented in the previous sections. The question may be one of these types: Multiple Choice, Fill in the Blank and True or False. The question and answer will be stored in the server side to avoid bloating the client side and to avoid getting the answers via inspect element.
 
-### Tentative Style Guide Snapshot
+### Layout of the Virtual Exhibit
 
 ![page1-tsg](image-4.png)
 ![page2-tsg](image-5.png)
 
-Github Link: https://github.com/dev-gabb-711/arch2-case-study \
+Github Link: https://github.com/dev-gabb-711/arch2-case-study
 Canva Link: https://canva.link/n2koqjjobk67rdd
