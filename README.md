@@ -83,11 +83,38 @@
 - The flow of data will also be continuous throughout the RAM diagram
 
 ### Section 4: Memory Access and Communication
-**Info**: This section explores how memory requests are communicated, processed, and transmitted within a RAM system.
+**Info**: In this section, the user will explore how the individual components of RAM cooperate to find and access data. The user will learn how the CPU communicates with RAM through the use of memory addresses, how RAM uses row and column selection to identify a specific place to store data, and how RAS (Row Address Strobe) and CAS (Column Address Strobe) signals work together to perform the retrieval process. You will also get an overview of the evolution of the communication protocols from SDRAM to today's DDR memory types.
 
-**Implementation**: This section serves as the second major interactive element of the exhibit.
+**Implementation**: Users interact with a simplified memory map consisting of rows and columns representing RAM storage locations. Given a sample memory request from the CPU, they follow the process of locating the requested data by activating the appropriate row and column signals. As users progress, visual animations highlight the selected row, column, and target memory cell while explanatory tooltips describe the role of each step. Once the correct cell is identified, the stored data is retrieved and sent back to the CPU, completing the memory access process. To connect the concept to real-world hardware, users may explore a comparison panel showcasing the physical interfaces of SDRAM, DDR, DDR2, DDR3, DDR4, and DDR5. Selecting a generation reveals its pin layout, transfer improvements, and communication characteristics.
 
-**Outline**: Lorem ipsum
+**Outline**:
+- Receiving the Request
+  - How the CPU requests data
+  - Memory addresses
+  - Read and write operations
+- Navigating the Memory Map
+  - Organization of rows and columns
+  - Why RAM uses a grid structure
+  - Locating a storage location
+- Activating RAS and CAS
+  - Row Address Strobe (RAS)
+  - Column Address Strobe (CAS)
+  - Selecting the target memory cell
+- Retrieving the Data
+  - Accessing the selected cell
+  - Returning data to the CPU
+  - Completing the memory request
+- Evolution of Memory Communication
+  - SDRAM interface
+  - DDR memory generations
+  - Pin layouts and communication improvements
+  - Speed and efficiency advancements
+- Interactive Features:
+  - Memory Address Explorer
+  - RAS/CAS Signal Demonstration
+  - Interactive Memory Grid
+  - CPU-to-RAM Request Animation
+  - DDR Generation Comparison Viewer
 
 ### Section 5: Challenge Quiz
 **Implementation**: This section will reinforce the viewer's learning by asking questions about the information presented in the previous sections. The question may be one of these types: Multiple Choice, Fill in the Blank and True or False. The question and answer will be stored in the server side to avoid bloating the client side and to avoid getting the answers via inspect element.
