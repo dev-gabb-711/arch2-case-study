@@ -62,9 +62,21 @@
 ### Section 2: The Evolution of RAM
 **Info**: This section explores the historical development and progression of RAM technologies.
 
-**Implementation**: This section will feature an interactive timeline showcasing major RAM generations and their evolution over time.
+**Implementation**: This section will feature an interactive timeline showcasing major RAM generations and their evolution over time. The image displayed changes while scrolling down according to which timeline is being discussed.
 
-**Outline**: Lorem Ipsum
+**Outline**:
+- Analytical Engine
+- Drum Memory
+- Magnetic Core Memory
+- Matrix Core Memory
+- Dynamic Random Access Memory
+- MOS Dynamic RAM and EPROM
+- EDO DRAM
+- SDRAM
+- DRDRAM AND PSRAM
+- DDR SDRAM
+- DDR2 SDRAM
+- DDR3 SDRAM
 
 ### Section 3: Inside the RAM - The Internal Data Journey
 **Info**: A deep-dive simulation tracking a data stream through a detailed physical diagram of a RAM module. It explains how internal hardware components interact to process requests, combining the step-by-step application flow with immediate hardware definitions and function explanations.
