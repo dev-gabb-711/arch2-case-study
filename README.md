@@ -136,5 +136,4 @@
 ![page1-tsg](revised.png)
 
 
-Github Link: https://github.com/dev-gabb-711/arch2-case-study
-Canva Link: https://canva.link/n2koqjjobk67rdd
+
