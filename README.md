@@ -59,7 +59,7 @@
   - A comparison table or visual diagram may be included to help visitors quickly identify the strengths and limitations of each memory technology.
 
 
-### Section 2: The Evolution of RAM
+### REVISIONS - Section 2: The Evolution of RAM
 **Info**: This section explores the historical development and progression of RAM technologies.
 
 **Implementation**: This section will feature an interactive timeline showcasing major RAM generations and their evolution over time. The image displayed changes while scrolling down according to which timeline is being discussed.
@@ -94,7 +94,7 @@
 - After this section, the user is allowed to freely click on the components in the full view of the RAM diagram and details about each component will be shown as well.
 - The flow of data will also be continuous throughout the RAM diagram
 
-### Section 4: Memory Access and Communication
+### REVISIONS - Section 4: Memory Access and Communication
 **Info**: In this section, the user will explore how the individual components of RAM cooperate to find and access data. The user will learn how the CPU communicates with RAM through the use of memory addresses, how RAM uses row and column selection to identify a specific place to store data, and how RAS (Row Address Strobe) and CAS (Column Address Strobe) signals work together to perform the retrieval process. You will also get an overview of the evolution of the communication protocols from SDRAM to today's DDR memory types.
 
 **Implementation**: Users interact with a simplified memory map consisting of rows and columns representing RAM storage locations. Given a sample memory request from the CPU, they follow the process of locating the requested data by activating the appropriate row and column signals. As users progress, visual animations highlight the selected row, column, and target memory cell while explanatory tooltips describe the role of each step. Once the correct cell is identified, the stored data is retrieved and sent back to the CPU, completing the memory access process. To connect the concept to real-world hardware, users may explore a comparison panel showcasing the physical interfaces of SDRAM, DDR, DDR2, DDR3, DDR4, and DDR5. Selecting a generation reveals its pin layout, transfer improvements, and communication characteristics.
